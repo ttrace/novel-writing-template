@@ -1,0 +1,35 @@
+{
+  "name": "writing-template",
+  "version": "1.0.0",
+  "description": "マン・カインド",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "novel"
+  ],
+  "author": "Taiyo Fujii",
+  "license": "ISC",
+  "devDependencies": {
+    "@textlint-ja/textlint-rule-no-synonyms": "^1.1.0",
+    "assert": "^2.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-count-stat": "^1.0.0",
+    "gulp-foreach": "^0.1.0",
+    "gulp-header": "^2.0.9",
+    "gulp-if": "^3.0.0",
+    "gulp-order": "^1.2.0",
+    "textlint": "^11.9.0",
+    "textlint-rule-ja-no-successive-word": "^1.2.0",
+    "textlint-rule-no-doubled-joshi": "^3.8.0",
+    "textlint-rule-preset-jtf-style": "^2.3.8"
+  }
+}
