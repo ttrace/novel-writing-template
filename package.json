@@ -16,6 +16,7 @@
   "author": "Taiyo Fujii",
   "license": "ISC",
   "devDependencies": {
+    "@textlint-ja/textlint-rule-morpheme-match": "^1.0.2",
     "@textlint-ja/textlint-rule-no-synonyms": "^1.1.0",
     "assert": "^2.0.0",
     "del": "^6.0.0",
@@ -29,7 +30,6 @@
     "gulp-order": "^1.2.0",
     "textlint": "^11.9.0",
     "textlint-rule-ja-no-successive-word": "^1.2.0",
-    "textlint-rule-no-doubled-joshi": "^3.8.0",
     "textlint-rule-preset-jtf-style": "^2.3.8"
   }
 }

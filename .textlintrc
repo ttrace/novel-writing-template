@@ -1,5 +1,8 @@
 {
     "rules": {
+        "@textlint-ja/morpheme-match": {
+            "dictionaryPathList": ["dict/dict.js"] 
+        },
         "preset-jtf-style": {
             "1.1.1.本文": false,
             "2.1.9.アルファベット": false,
