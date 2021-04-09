@@ -10,15 +10,6 @@
             "2.1.8.算用数字": false,
             "2.2.2.算用数字と漢数字の使い分け": false
         },
-        "ja-no-successive-word": {
-            "allowOnomatopee": true,
-            "allow": [
-                "/はい/i",
-                "/そう/i",
-                "/とても/i",
-                "/[一二二三四五六七八九]/"
-                ]
-        },
         "@textlint-ja/textlint-rule-no-synonyms": {
             "allows": [
                 "ハロワ","ハローワーク",
