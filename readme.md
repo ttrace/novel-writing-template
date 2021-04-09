@@ -7,17 +7,30 @@ Draftフォルダ以下にあるテキストファイル .txt を結合して、
 ## プロジェクトの初期設定
 
 ```
-% npm init 
+% npm init
 ```
+
+プロジェクトのタイトル、著者を決めてください。
+
+## npm パッケージのインストール
+
+```
+% npm install
+```
+
+このテンプレートでは、テキストファイルの結合や文字数の表示、機械校正などのために、このテンプレートに含まれていない外部のプログラムを利用します。
+
 
 ## 起動
 
 ```
 % gulp
 ```
+ターミナルで `gulp`を起動することで、執筆は始められます。
+
 ## 出力
 
-Draft内のテキストファイルを保存すると、ファイルを結合して、ターミナルに全てのテキストの文字数を表示します。
+Draft ディレクトリ内のテキストファイルを保存すると、ファイルを結合して、ターミナルに全てのテキストの文字数を表示します。Draft の中はフォルダが入れ子になっていても構いません。
 
 ```
 [11:29:51] Finished 'cleaning' after 160 ms
@@ -43,3 +56,13 @@ Draft内のテキストファイルを保存すると、ファイルを結合し
 [11:29:52] Starting 'novel'...
 [11:29:52] Finished 'novel' after 32 ms
 ```
+
+## textlintについて
+
+このテンプレートでは、日本語の機械校正に [textlint](https://github.com/textlint/textlint) を用いています。
+特に、このテンプレートでは　[textlint-rule-morpheme-match](https://github.com/textlint-ja/textlint-rule-morpheme-match) の辞書をメンテナンスすることで、小説の執筆を行うときにやりがちな失敗を発見しやすくしていく予定です。
+
+## 関連するプロジェクトについて
+
+Visual Studio Code 用の「小説」言語モードの機能拡張も作っています。
+[vscode-language-japanese-novel](https://github.com/ttrace/vscode-language-japanese-novel)
