@@ -1,7 +1,5 @@
 node_modules/
-publish/**
-tmp/**
-Draft/**
-
+publish/*.txt
+tmp/*.txt
 # icloudの設定ファイルを無視
 *.icloud
