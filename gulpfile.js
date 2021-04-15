@@ -6,8 +6,8 @@ var header = require('gulp-header');
 var gulpif = require('gulp-if');
 var order = require("gulp-order");
 var countStat = require("gulp-count-stat");
-var folderspath = ['Draft/**/'];
-var documentspath = ['Draft/**/*.txt'];
+var folderspath = ['Draft/*/**/'];
+var documentspath = ['Draft/*/**/*.txt'];
 
 var del = require('del');// 削除コマンド
 var sectionstar = "\n　　　＊\n\n";
