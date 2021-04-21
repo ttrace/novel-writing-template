@@ -1,7 +1,6 @@
 node_modules/
 publish/
 tmp/
-.vscode/
 
 # icloudの設定ファイルを無視
 *.icloud
