@@ -1,5 +1,9 @@
 {
     "scrolloff.scrolloff": 15,
     "textlint.run": "onType",
+<<<<<<< HEAD
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?、。　「」〈〉《》を…―"
+=======
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?、。　「」を『』〈〉"
+>>>>>>> cd9fe8b1d319fda08c4ace9b3e0b6bc08b1f904d
 }
