@@ -127,6 +127,21 @@ module.exports = [
             }
         ]
     },
+    //助動詞が続いています
+    //「どきりとしたた」
+    {
+        message: '助動詞が続いています',
+        tokens: [
+            {
+                "pos": "助動詞",
+                "conjugated_form": "基本形",
+            },
+            {
+                "pos": "助動詞",
+                "conjugated_form": "基本形",
+            },
+        ]
+    },
     // 超えると越える
     {
         message: '距離・時間・点は「越える」を用います',
@@ -236,6 +251,44 @@ module.exports = [
             },
             {
                 "surface_form": "超え",
+                "pos": "動詞",
+            },
+        ]
+    },
+    //吹き出す問題
+    {
+        message: '笑う場合には、「噴き出す」を用います',
+        expected: '$1$2噴き出す',
+        tokens: [
+            {
+                "pos_detail_2": "人名",
+                "_capture": "$1"
+            },
+            {
+                "pos": "助詞",
+                "pos_detail_1": "格助詞",
+                "_capture": "$2"
+            },
+            {
+                "surface_form": "吹き出す",
+                "pos": "動詞",
+            },
+        ]
+    },    {
+        message: '笑う場合には、「噴き出し」を用います',
+        expected: '$1$2噴き出し',
+        tokens: [
+            {
+                "pos_detail_2": "人名",
+                "_capture": "$1"
+            },
+            {
+                "pos": "助詞",
+                "pos_detail_1": "格助詞",
+                "_capture": "$2"
+            },
+            {
+                "surface_form": "吹き出し",
                 "pos": "動詞",
             },
         ]
