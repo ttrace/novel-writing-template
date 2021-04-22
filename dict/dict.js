@@ -292,5 +292,41 @@ module.exports = [
                 "pos": "動詞",
             },
         ]
+    },    {
+        message: '笑う場合には、「噴き出す」を用います',
+        expected: '$1$2噴き出す',
+        tokens: [
+            {
+                "pos_detail_1": "代名詞",
+                "_capture": "$1"
+            },
+            {
+                "pos": "助詞",
+                "pos_detail_1": "格助詞",
+                "_capture": "$2"
+            },
+            {
+                "surface_form": "吹き出す",
+                "pos": "動詞",
+            },
+        ]
+    },    {
+        message: '笑う場合には、「噴き出し」を用います',
+        expected: '$1$2噴き出し',
+        tokens: [
+            {
+                "pos_detail_1": "代名詞",
+                "_capture": "$1"
+            },
+            {
+                "pos": "助詞",
+                "pos_detail_1": "格助詞",
+                "_capture": "$2"
+            },
+            {
+                "surface_form": "吹き出し",
+                "pos": "動詞",
+            },
+        ]
     },
 ];
